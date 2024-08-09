@@ -1,0 +1,77 @@
+.user-tasks-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 224px;
+  }
+  
+  .user-tasks-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-tasks-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-task-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .task-priority {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .priority-1 {
+    background: #ff4d4d;
+  }
+  
+  .priority-2 {
+    background: #ffa31a;
+  }
+  
+  .priority-3 {
+    background: #00b300;
+  }
+  
+  .task-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .task-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .task-due-date, .task-assignee {
+    margin: 0;
+  }
+  

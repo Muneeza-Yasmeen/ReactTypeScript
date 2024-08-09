@@ -1,0 +1,19 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-link {
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.dashboard-link:hover {
+    text-decoration: underline;
+}
